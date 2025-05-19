@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/rivera/posts")
-@CrossOrigin(origins = {"http://localhost:5173"})
+@CrossOrigin(origins = {"http://localhost:5173", "https://final-ui-ao7p.onrender.com"})
 public class PostController {
 
     @Autowired
